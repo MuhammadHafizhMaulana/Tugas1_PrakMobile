@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tugas1/login.dart';
 import 'package:tugas1/profile.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -26,10 +27,10 @@ class HomeScreen extends StatelessWidget {
               onPressed: (){
                 Navigator.push(
                   context,
-                  MaterialPageRoute(builder: (context) => Profile()),
+                  MaterialPageRoute(builder: (context) => LoginPage()),
                   );
               },
-              child: Text('Profile',
+              child: Text('Login',
               style: TextStyle(color: Colors.black),),
               ),
           )
